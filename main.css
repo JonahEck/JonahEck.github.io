@@ -17,8 +17,17 @@ html, body {
 }
 header{
 	position: relative;
-	background-color: #808080;
+	background-color: #c97b23;
 	text-align: center;
+}
+
+#Nav_Bar{
+	background-color: #bf2626;
+}
+
+.Nav-Link{
+	padding-left: 20px;
+	padding-right: 20px;
 }
 
 footer{
@@ -32,14 +41,7 @@ footer{
 	text-align: center;
 }
 
-.header_content{
-	/*
-	margin: auto;
-	width:80%;
-	padding: 10px;
-	text-align:center;
-	*/
-}
+
 
 
 
