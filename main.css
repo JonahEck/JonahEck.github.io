@@ -1,12 +1,15 @@
 header{
 	background-color: #808080;
+	text-align: center;
 }
 
 .header_content{
+	/*
 	margin: auto;
 	width:80%;
 	padding: 10px;
 	text-align:center;
+	*/
 }
 
 
