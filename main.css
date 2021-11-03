@@ -1,11 +1,30 @@
+*{
+	margin:0;
+	padding: 0;
+}
+
+html, body {
+	height:100%;
+}
+
+#wrap {
+	min-height: 100%;
+}
+
+#main {
+	overflow: auto;
+	padding-bottom: 20px;
+}
 header{
+	position: relative;
 	background-color: #808080;
 	text-align: center;
 }
 
 footer{
 	background-color: #bf2626;
-	position: absolute;
+	position: relative;
+	margin-top: -20px;
 	right: 0;
 	bottom: 0;
 	left: 0;
