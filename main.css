@@ -9,16 +9,16 @@ html, body {
 
 #wrap {
 	min-height: 100%;
-	border-radius: 5px;
+	border-radius: 20px;
 	border-color: #05821e;
+	background-color: springgreen;
 }
 
 #main {
-	height:100%;
 	overflow: auto;
 	padding-bottom: 20px;
-	/*background-image: "/Images/Home_Page/background.webp"; */
-	background-color: #03a5fc;
+	background-image: "/Images/Home_Page/background.webp"; 
+
 }
 header{
 	position: relative;
