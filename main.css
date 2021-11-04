@@ -9,11 +9,16 @@ html, body {
 
 #wrap {
 	min-height: 100%;
+	border-radius: 5px;
+	border-color: #05821e;
 }
 
 #main {
+	height:100%;
 	overflow: auto;
 	padding-bottom: 20px;
+	/*background-image: "/Images/Home_Page/background.webp"; */
+	background-color: #03a5fc;
 }
 header{
 	position: relative;
@@ -23,11 +28,13 @@ header{
 
 #Nav_Bar{
 	background-color: #bf2626;
+	
 }
 
-.Nav-Link{
-	padding-left: 20px;
-	padding-right: 20px;
+.Nav_Link{
+	padding-left: 50px;
+	padding-right: 50px;
+	font-size: 18pt;
 }
 
 footer{
