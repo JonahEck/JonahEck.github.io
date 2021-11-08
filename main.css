@@ -41,8 +41,15 @@ header{
 	text-align: center;
 }
 
+#header_title{
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
 #Nav_Bar{
 	background-color: #267bbf;
+	padding-top: 8px;
+	padding-bottom: 8px;
 	
 }
 
