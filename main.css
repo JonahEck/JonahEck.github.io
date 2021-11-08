@@ -32,8 +32,7 @@ html, body {
 
 #main_p{
 	color: white;
-	text-shadow: 0px 0px 2px red,
-				0px 2px 0px blue;
+	text-shadow: 4px 4px 4px black;
 	font-size: 14pt;
 }
 header{
