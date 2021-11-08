@@ -66,6 +66,27 @@ footer{
 	text-align: center;
 }
 
+a:link {
+	text-decoration: none;
+	color: black;
+
+  }
+  
+  a:visited {
+	text-decoration: none;
+	color: black;
+  }
+  
+  a:hover {
+	text-decoration: none;
+	color: white;
+	text-shadow: 2px 2px 2px 2px black;
+  }
+  
+  a:active {
+	text-decoration: underline;
+  }
+
 
 
 
