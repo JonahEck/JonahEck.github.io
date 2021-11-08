@@ -38,12 +38,12 @@ html, body {
 }
 header{
 	position: relative;
-	background-color: #c97b23;
+	background-color: #239ec9;
 	text-align: center;
 }
 
 #Nav_Bar{
-	background-color: #bf2626;
+	background-color: #267bbf;
 	
 }
 
@@ -57,7 +57,7 @@ header{
 
 footer{
 	font-size: 12pt;
-	background-color: #bf2626;
+	background-color: #267bbf;
 	position: relative;
 	margin-top: -40px;
 	right: 0;
