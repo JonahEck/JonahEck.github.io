@@ -11,14 +11,14 @@ html, body {
 	min-height: 100%;
 	border-radius: 20px;
 	border-color: #05821e;
-	background-color: springgreen;
+	
+	/*background-color: springgreen;*/
 }
 
 #main {
 	overflow: auto;
 	padding-bottom: 20px;
-	background-image: "/Images/Home_Page/background.webp"; 
-
+	background-image: url("/Images/Home_Page/background.jpg");
 }
 header{
 	position: relative;
