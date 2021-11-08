@@ -17,6 +17,32 @@ html, body {
 	/*background-color: springgreen;*/
 }
 
+header{
+	position: relative;
+	background-color: #239ec9;
+	text-align: center;
+}
+
+#header_title{
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+#header_h1{
+	font-size: 26pt;
+}
+
+#header_h2{
+	font-size: 18pt;
+}
+
+#Nav_Bar{
+	background-color: #267bbf;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	
+}
+
 #main {
 	height: 200%;
 	overflow: auto;
@@ -34,23 +60,6 @@ html, body {
 	color: white;
 	text-shadow: 4px 4px 4px black;
 	font-size: 16pt;
-}
-header{
-	position: relative;
-	background-color: #239ec9;
-	text-align: center;
-}
-
-#header_title{
-	padding-top: 15px;
-	padding-bottom: 15px;
-}
-
-#Nav_Bar{
-	background-color: #267bbf;
-	padding-top: 8px;
-	padding-bottom: 8px;
-	
 }
 
 .Nav_Link{
