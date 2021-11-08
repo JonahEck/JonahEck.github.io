@@ -21,8 +21,19 @@ html, body {
 	overflow: auto;
 	padding-bottom: 20px;
 	text-align: center;
+}
+
+#main_h2{
 	color: white;
-	text-shadow: 1px 1px 1px black;
+	text-shadow: 3px 3px 3px black;
+	font-size: 20pt;
+}
+
+#main_p{
+	color: white;
+	text-shadow: 0px 0px 2px red,
+				0px 2px 0px blue;
+	font-size: 14pt;
 }
 header{
 	position: relative;
