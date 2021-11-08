@@ -21,6 +21,8 @@ html, body {
 	overflow: auto;
 	padding-bottom: 20px;
 	text-align: center;
+	color: white;
+	text-shadow: 1px 1px 1px black;
 }
 header{
 	position: relative;
