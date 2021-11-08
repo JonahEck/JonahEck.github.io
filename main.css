@@ -8,6 +8,7 @@ html, body {
 	background-image: url("/Images/Home_Page/background2.png");
 	background-position: center;
 	background-repeat: no-repeat;
+	background-size: 100%;
 }
 
 #wrap {
