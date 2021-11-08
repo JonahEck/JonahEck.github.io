@@ -24,16 +24,16 @@ html, body {
 	text-align: center;
 }
 
-#main_h2{
+#main_h1{
 	color: white;
 	text-shadow: 3px 3px 3px black;
-	font-size: 20pt;
+	font-size: 24pt;
 }
 
 #main_p{
 	color: white;
 	text-shadow: 4px 4px 4px black;
-	font-size: 14pt;
+	font-size: 16pt;
 }
 header{
 	position: relative;
