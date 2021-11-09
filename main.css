@@ -82,6 +82,28 @@ footer{
 	text-align: center;
 }
 
+/*
+-------Projects------------
+*/
+
+#project_main_left{
+	position: relative;
+	top: 0;
+	left: 0;
+	width: 50%;
+	border-radius: 3px;
+	border-color: green;
+}
+
+#project_main_right{
+	position: relative;
+	top: 0;
+	right: 0;
+	width: 50%;
+	border-radius: 3px;
+	border-color: greenyellow;
+}
+
 a:link {
 	text-decoration: none;
 	color: black;
