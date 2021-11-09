@@ -47,6 +47,9 @@ header{
 	height: 200%;
 	overflow: auto;
 	padding-bottom: 20px;
+}
+
+#home_main{
 	text-align: center;
 }
 
@@ -74,7 +77,7 @@ footer{
 	font-size: 12pt;
 	background-color: #267bbf;
 	position: relative;
-	margin-top: -40px;
+	margin-top: -20px;
 	right: 0;
 	bottom: 0;
 	left: 0;
@@ -85,7 +88,44 @@ footer{
 /*
 -------Projects------------
 */
+#projects_list{
+	text-align: center;
+}
+#project1{
+	padding: 20px;
+}
 
+#project_left{
+	width: 50%;
+	display: inline-block;
+	border: solid;
+	box-sizing: border-box;
+	border-color: greenyellow;
+	border-width: 4px;
+	text-align: center;
+}
+
+#project_right{
+	width: 50%;
+	display: inline-block;
+	border: solid;
+	box-sizing: border-box;
+	border-color: green;
+	border-width: 4px;
+	text-align: center;
+}
+
+#project2{
+	padding: 20px;
+}
+
+#project3{
+	padding: 20px;
+}
+
+#project4{
+	padding: 20px;
+}
 #project_main_left{
 	position: relative;
 	top: 0;
