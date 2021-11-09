@@ -5,14 +5,14 @@
 
 html, body {
 	height:100%;
-	background-image: url("/Images/Home_Page/background2.png");
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
 }
 
 #wrap {
 	min-height: 100%;
+	background-image: url("/Images/Home_Page/background2.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 	
 	/*background-color: springgreen;*/
 }
@@ -92,56 +92,40 @@ footer{
 	text-align: center;
 }
 #project1{
-	padding: 20px;
+	margin:20px;
+	align-content: center;
 }
 
 #project_left{
-	width: 50%;
+	width: 30%;
 	display: inline-block;
-	border: solid;
 	box-sizing: border-box;
+	border: solid;
 	border-color: greenyellow;
 	border-width: 4px;
 	text-align: center;
 }
 
 #project_right{
-	width: 50%;
+	width: 30%;
 	display: inline-block;
-	border: solid;
 	box-sizing: border-box;
+	border: solid;
 	border-color: green;
 	border-width: 4px;
 	text-align: center;
 }
 
 #project2{
-	padding: 20px;
+	margin:20px;
 }
 
 #project3{
-	padding: 20px;
+	margin:20px;
 }
 
 #project4{
-	padding: 20px;
-}
-#project_main_left{
-	position: relative;
-	top: 0;
-	left: 0;
-	width: 50%;
-	border-radius: 3px;
-	border-color: green;
-}
-
-#project_main_right{
-	position: relative;
-	top: 0;
-	right: 0;
-	width: 50%;
-	border-radius: 3px;
-	border-color: greenyellow;
+	margin:20px;
 }
 
 
