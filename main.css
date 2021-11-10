@@ -129,7 +129,30 @@ footer{
 */
 #projects_list{
 	text-align: center;
+	padding: 20px
 }
+
+#project_nav:link {
+	text-decoration: none;
+	color: white;
+	padding: 5px;
+	font-size: 14pt;
+  }
+  
+#project_nav:visited {
+	text-decoration: none;
+	color: white;
+  }
+  
+#project_nav:hover {
+	text-decoration: none;
+	color: black;
+	text-shadow: 2px 2px 2px 2px white;
+  }
+  
+#project_nav:active {
+	text-decoration: none;
+  }
 
 #project1{
 	margin:20px;
