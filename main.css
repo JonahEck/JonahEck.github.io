@@ -171,28 +171,41 @@ footer{
 	text-decoration: none;
   }
 
-#project1{
+#project_div{
 	margin:20px;
 	text-align: center;
 	display: flex;
+}
+
+.project_button{
+	background-color: #267bbf;
+	padding: 10px;
+	color:white;
+	font-size: 14pt;
+}
+
+#project1{
+	text-align: center;
+	padding-bottom: 30px;
+	padding-top: 30px;
 }
 
 #project2{
-	margin:20px;
 	text-align: center;
-	display: flex;
+	padding-bottom: 30px;
+	padding-top: 30px;
 }
 
 #project3{
-	margin:20px;
 	text-align: center;
-	display: flex;
+	padding-bottom: 30px;
+	padding-top: 30px;
 }
 
 #project4{
-	margin:20px;
 	text-align: center;
-	display: flex;
+	padding-bottom: 30px;
+	padding-top: 30px;
 }
 
 #project_left{
