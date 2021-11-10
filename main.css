@@ -171,6 +171,14 @@ footer{
 	border-width: 4px;
 }
 
+#project_pic{
+	height: 100%;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
 /*
 -------404------------
 */
