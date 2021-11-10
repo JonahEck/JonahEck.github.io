@@ -27,6 +27,25 @@ header{
 	padding-bottom: 15px;
 }
 
+.header_title:link {
+	text-decoration: none;
+	color: black;
+
+  }
+  
+  .header_title:visited {
+	text-decoration: none;
+	color: black;
+  }
+  
+  .header_title:hover {
+	text-decoration: none;
+  }
+  
+  .header_title:active {
+	text-decoration: none;
+  }
+
 #header_h1{
 	font-size: 26pt;
 }
@@ -71,6 +90,27 @@ header{
 	color: black;
 	
 }
+
+.Nav_Link:link {
+	text-decoration: none;
+	color: black;
+
+  }
+  
+  .Nav_Link:visited {
+	text-decoration: none;
+	color: black;
+  }
+  
+  .Nav_Link:hover {
+	text-decoration: none;
+	color: white;
+	text-shadow: 2px 2px 2px 2px black;
+  }
+  
+  .Nav_Link:active {
+	text-decoration: underline;
+  }
 
 footer{
 	font-size: 12pt;
@@ -138,26 +178,6 @@ footer{
 	text-align: center;
 }
 
-a:link {
-	text-decoration: none;
-	color: black;
-
-  }
-  
-  a:visited {
-	text-decoration: none;
-	color: black;
-  }
-  
-  a:hover {
-	text-decoration: none;
-	color: white;
-	text-shadow: 2px 2px 2px 2px black;
-  }
-  
-  a:active {
-	text-decoration: underline;
-  }
 
 
 
