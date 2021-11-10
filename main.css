@@ -179,6 +179,14 @@ footer{
 	align-items: center;
 }
 
+#project_text{
+	height: 100%;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
 #project_pic2{
 	height: auto;
 	width: 100%;
