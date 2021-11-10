@@ -187,7 +187,15 @@ footer{
 	align-items: center;
 }
 
+#project_p{
+	color: white;
+	text-shadow: 2px 2px 2px 2px black;
+	font-size: 12pt;
+}
+
 #project_pic2{
+	padding-top: 5px;
+	padding-bottom: 5px;
 	height: auto;
 	width: 100%;
 }
