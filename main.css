@@ -280,12 +280,14 @@ img {vertical-align: middle;}
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	padding-left: 15px;
+	padding-right: 15px;
 }
 
 #project_p{
 	color: white;
 	text-shadow: 2px 2px 2px 2px black;
-	font-size: 12pt;
+	font-size: 14pt;
 }
 
 #project_pic2{
@@ -293,6 +295,26 @@ img {vertical-align: middle;}
 	padding-bottom: 5px;
 	height: auto;
 	width: 100%;
+}
+
+#container{
+	display: grid;
+	align-items: center;
+}
+
+#layer1, #layer2{
+	grid-column: 1;
+	grid-row: 1;
+}
+
+#layer2{
+	color: rgb(54, 54, 54);
+	font-size: 20pt;
+	text-shadow: 5px, 5px, 5px 5px black;
+}
+
+#layer1{
+	z-index: -1;
 }
 
 /*
