@@ -194,7 +194,7 @@ img {vertical-align: middle;}
 	text-decoration: none;
 	color: white;
 	padding: 5px;
-	font-size: 14pt;
+	font-size: 18pt;
   }
   
 #project_nav:visited {
@@ -216,6 +216,12 @@ img {vertical-align: middle;}
 	margin:20px;
 	text-align: center;
 	display: flex;
+}
+
+#projects_h2{
+	font-size: 22pt;
+	color: white;
+	text-shadow: 1px 1px 1px black;
 }
 
 .project_button{
