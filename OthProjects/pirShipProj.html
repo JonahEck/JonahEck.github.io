@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Pirate Ship Project</title>
+<link type="text/css" rel="stylesheet" href="main.css">
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-7GD6P2ED9N"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-7GD6P2ED9N');
+</script>
+  <!-- End Google Analytics -->
+</head>
+
+<body>
+<div id="wrap">
+	<header>
+		<div id="header_content">
+			<div id="header_title">
+				<a class="header_title" href="/">
+					<h1 id="header_h1">Jonah Eck</h1>
+					<h2 id="header_h2">Personal blog/Website</h2>
+				</a>
+			</div>
+			<div id="Nav_Bar">
+				<ul>
+					<li><a class="Nav_Link" title="Coding Projects" href="/CodingProjects.html">Coding Projects</a></li>
+					<li><a class="Nav_Link" title="Education" href="/education.html">Education</a></li>
+					<li><a class="Nav_Link" title="Career" href="/career.html">Career</a></li>
+					<li><a class="Nav_Link" title="Other Projects" href="/otherProjects.html">Other Projects</a></li>
+					<li><a class="Nav_Link" title="About Me" href="/running.html">Running</a></li>
+					<li><a class="Nav_Link" title="About Me" href="/aboutMe.html">About me</a></li>
+				</ul>
+			</div>
+		</div>
+	</header>
+	<div id="main">
+		<div id="home_main">
+			<p>This was an incredibly fun project. It definitly had it's challenges. I started the project with a 
+                CAD drawing using SketchUp. I am not a great drawer so I need to design everything on the computer
+                to really wrap my head around the whole project and visually see how everything is going to come 
+                together. I knew this was going to be an expensive project as well. I thought about other ways to
+                build a boat looking object. But I really liked the idea of being able to walk onto the boat and into 
+                the back of the truck. So I needed to build it out of wood. (Don't ask how much it was, the answer is probably to much, lol)
+                From there, it was several trips to Home Depot. Getting wood, screws, tools and whatever was needed. I wanted to
+                incorporate some fun stuff to do on the ship as well. So I knew I wanted a ships wheel as well as a bubble 
+                blowing cannon. After about a month of building, I had finally finished the boat. Trunk-or-treat was Sunday
+                night, and I had just finished the boat Sunday afternoon. Loading the boat to go to the church was 
+                definitly interesting. But after some struggling, it was all loaded up and ready to go. Got there with plenty of
+                time to set up. Put the ship together and then set up the wiring for power. I had a 12v lawn mower battery
+                hooked up to a power inverter to get power to the lights and the bubble blower. It lasted the whole hour and a half
+                to two hours. I was certatinly impressed. The time came, kids showed up and it was a lot of fun. I am very glad I 
+                did this project and could spread some joy, happiness and God's love to kids and those around me. Check out some of the pictures
+                below.
+            </p>
+            <div style="margin:20px">
+                <div class="slideshow-container">
+                    <div class="mySlides1">
+                        <img src="/Images/Other Projects Page/project2/1.jpg" style="width:100%">
+                    </div>
+
+                    <div class="mySlides1">
+                        <img src="/Images/Other Projects Page/project2/2.jpg" style="width:100%">
+                    </div>
+
+                    <div class="mySlides1">
+                        <img src="/Images/Other Projects Page/project2/3.jpg" style="width:100%">
+                    </div>
+
+                    <div class="mySlides1">
+                        <img src="/Images/Other Projects Page/project2/4.jpg" style="width:100%">
+                    </div>
+
+                    <div class="mySlides1">
+                        <img src="/Images/Other Projects Page/project2/5.jpg" style="width:100%">
+                    </div>
+
+                    <div class="mySlides1">
+                        <img src="/Images/Other Projects Page/project2/6.jpg" style="width:100%">
+                    </div>
+
+                    <div class="mySlides1">
+                        <img src="/Images/Other Projects Page/project2/10.jpg" style="width:100%">
+                    </div>
+
+                    <div class="mySlides1">
+                        <img src="/Images/Other Projects Page/project2/9.jpg" style="width:100%">
+                    </div>
+
+                    <div class="mySlides1">
+                        <img src="/Images/Other Projects Page/project2/8.jpg" style="width:100%">
+                    </div>
+                    <!--
+                    <div class="mySlides1">
+                        <img src="img_mountains_wide.jpg" style="width:100%">
+                    </div>
+                    -->
+                    <a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
+                    </div>
+<!---------------------Slide show script------------------->
+                    <script>
+                    var slideIndex = [1,0];
+                    var slideId = ["mySlides1"]
+                    showSlides(1, 0);
+
+                    function plusSlides(n, no) {
+                    showSlides(slideIndex[no] += n, no);
+                    }
+
+                    function showSlides(n, no) {
+                    var i;
+                    var x = document.getElementsByClassName(slideId[no]);
+                    if (n > x.length) {slideIndex[no] = 1}    
+                    if (n < 1) {slideIndex[no] = x.length}
+                    for (i = 0; i < x.length; i++) {
+                        x[i].style.display = "none";  
+                    }
+                    x[slideIndex[no]-1].style.display = "block";  
+                    }
+                    </script>
+<!-----------------End Slide show script------------------>
+            </div>
+		</div>
+	</div>
+</div>
+<footer>
+	<p>Footer</p>
+</footer>
+
+</body>
+</html>
