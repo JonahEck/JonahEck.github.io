@@ -308,21 +308,6 @@ img {vertical-align: middle;}
 	align-items: center;
 }
 
-#layer1, #layer2{
-	grid-column: 1;
-	grid-row: 1;
-}
-
-#layer2{
-	color: rgb(54, 54, 54);
-	font-size: 20pt;
-	text-shadow: 1px 1px 1px rgb(29, 29, 29), 2px 2px 2px black;
-}
-
-#layer1{
-	z-index: -1;
-}
-
 /*
 -------404------------
 */
