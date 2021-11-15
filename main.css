@@ -320,6 +320,21 @@ img {vertical-align: middle;}
 	text-align: center;
 }
 
+/*
+--------Education------
+*/
+#edu_text{
+	color: white;
+	text-shadow: 1pt 1pt 1pt black;
+	font-size: 20pt;
+}
+
+#edu_h2{
+	color: white;
+	text-shadow: 1pt 1pt 1pt black;
+	font-size: 26pt;
+}
+
 
 
 
